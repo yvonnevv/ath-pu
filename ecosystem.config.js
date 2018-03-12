@@ -33,7 +33,7 @@ module.exports = {
       user : 'labs',
       host : 'labs.qiang.it',
       ref  : 'origin/master',
-      repo : '',
+      repo : 'git@github.com:yvonnevv/ath-pu.git',
       path : '/usr/share/nginx/html/public/labs/athena2_temp',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
